@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.light-theme {
+  background-color: #fff;
+  color: #000;
+}
+
+.dark-theme {
+  background-color: #333;
+  color: #fff;
+}
+
+.map-container {
+  height: 600px;
+  width: 100%;
+  margin: 5% 5% 5% 5%
+}
+
+.marker {
+  background-size: cover;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  cursor: pointer;
+}
